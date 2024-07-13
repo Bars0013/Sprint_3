@@ -1,4 +1,5 @@
 import pytest
+from conftest import driver
 from data import Person, RandomData
 from locators import RegistrationPageLocators, AuthPageLocators
 from urls import *

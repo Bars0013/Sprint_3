@@ -1,4 +1,6 @@
 import pytest
+from conftest import driver
+from conftest import get_login_driver
 from locators import MainPageLocators, PersonalAreaLocators, AuthPageLocators
 from urls import URLS
 from selenium.webdriver.support import expected_conditions as EC

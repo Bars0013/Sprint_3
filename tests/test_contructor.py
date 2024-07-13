@@ -1,4 +1,5 @@
 import pytest
+from conftest import driver
 from locators import MainPageLocators
 from urls import URLS
 from selenium import webdriver
